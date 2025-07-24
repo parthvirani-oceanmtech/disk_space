@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'de.appgewaltig.disk_space'  // 👈 REQUIRED
     compileSdkVersion 35
 
     sourceSets {
